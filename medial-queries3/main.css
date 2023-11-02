@@ -1,3 +1,109 @@
 body {
   background: peachpuff;
+  margin: 0 auto;
+  text-align: center;
+
+}
+
+/* *{
+  border: 1px solid black;
+} */
+
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+ 
+}
+
+.a {
+  background: lightblue;
+  margin: 1em;
+  height: 15vh;
+
+}
+
+.b {
+  background: lightseagreen;
+  margin: 1em;
+  width: 25vw;
+  height: 25vw;;
+}
+
+.c {
+  background: lightgreen;
+  margin: 1em;
+  width: 25vw;
+  height: 25vw;
+}
+
+.d {
+  background: lightpink;
+  margin: 1em;
+  width: 25vw;
+  height: 25vw;
+}
+
+.e {
+  background: lightsalmon;
+  margin: 1em;
+  width: 25vw;
+  height: 25vw;
+}
+
+.f {
+  background: lightcoral;
+  margin: 1em;
+  width: 25vw;
+  height: 25vw;
+}
+
+.g {
+  background: lightskyblue;
+  margin: 1em;
+  width: 25vw;
+  height: 25vw;
+}
+
+.bcdefg {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly ;
+  flex-wrap: wrap;
+}
+
+.h {
+  background: lightslategray;
+  margin: 1em;
+  height: 40vh;
+}
+
+
+@media(min-width: 1000px) {
+
+  .container {
+    flex-direction: row;
+    flex-wrap: wrap;
+  
+  }
+
+  .a {
+    width: 100vw;
+    height: 25vh;
+  }
+
+  .b, .c, .d, .e, .f, .g {
+    height: 25vh;
+  }
+  .bcdefg {
+    width: 65vw;
+    height: 75vw;
+  }
+ 
+.h {
+  width: 25vw;
+  height: 100vh;
+}
+
 }
